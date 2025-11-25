@@ -59,7 +59,7 @@ Os gráficos foram criados com Matplotlib e Seaborn a partir dos resultados das 
 5. **Porcentagem de vendas por categoria (até o momento)**  
 
 
-## 🚀 Como Executar o Projeto 
+## Como Executar o Projeto 
 
 1. Clone o repositório e instale as dependências do arquivo `requirements.txt`.  
 
@@ -68,7 +68,7 @@ Os gráficos foram criados com Matplotlib e Seaborn a partir dos resultados das 
 3. Abra o notebook da pasta `/notebooks` no Google Colab para visualizar os gráficos.  
 
 
-## 🧠 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi desenvolvido com o objetivo de praticar e demonstrar habilidades de análise de dados descritiva usando SQL, Python e ferramentas de visualização.  
 Todo o processo foi feito do zero — desde a modelagem e criação do banco de dados MySQL, até a geração de consultas analíticas e visualização dos resultados em gráficos.
@@ -85,6 +85,6 @@ Os gráficos foram criados com Pandas, Matplotlib e Seaborn no Google Colab, des
 ## Contato 
 
 Sinta-se à vontade para entrar em contato comigo ou conhecer outros projetos:  
-- 💼 [LinkedIn] (https://www.linkedin.com/in/mitsuyoshijunior/)  
-- 💻 [GitHub] (https://github.com/mitsuyoshijunior)  
-- ✉️ Email: mitsuyoshijunior@gmail.com
+- [LinkedIn] (https://www.linkedin.com/in/mitsuyoshijunior/)  
+- [GitHub] (https://github.com/mitsuyoshijunior)  
+- Email: mitsuyoshijunior@gmail.com
