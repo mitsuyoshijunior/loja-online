@@ -5,28 +5,31 @@
 Este projeto apresenta uma análise descritiva completa de uma loja online fictícia.  
 O banco de dados foi modelado, criado e populado no MySQL, onde todas as consultas e análises foram realizadas em SQL.  
 
-Os resultados mais relevantes foram exportados para o Google Colab, onde foram gerados gráficos em Python utilizando matplotlib, seaborn e pandas.  
+Algumas consultas foram exportados para o Google Colab, onde foram gerados gráficos em Python utilizando matplotlib, seaborn e pandas.
 
-O objetivo é explorar métricas de vendas, clientes e produtos de forma visual e interpretável, aplicando técnicas típicas de um analista de dados júnior.  
+Para tomada de decisões, foi elaborado um relatório no Power BI, abordando vários temas para visualição (visão geral, clientes, produtos, localidades).
+
+O objetivo é explorar métricas de vendas, clientes e produtos de forma visual e interpretável, aplicando técnicas típicas de um analista de dados.  
 
 
 ##  Estrutura do Projeto
 
 analise-descritiva-loja-online/
 
+├── dashboards/ # Relatório em pbix e pdf
 
 ├── data/ # Arquivos brutos e tratados em formato CSV exportados das consultas
 
 ├── images/ # Gráficos gerados (matplotlib / seaborn)
 
-├── notebooks/ # Notebook com os gráficos (Colab)
+├── notebooks/ # Notebook com alguns gráficos (Colab)
 
 ├── sql/ # Construção, inserção e consultas
 
 ├── requirements.txt # Bibliotecas utilizadas
 
 
-O projeto segue um fluxo simples: consultas SQL → exportação dos resultados → visualização em Python.  
+O projeto segue um fluxo simples: consultas SQL → exportação dos resultados → relatório no Power BI / gráficos em Python.  
 
 ## Tecnologias Utilizadas
 
@@ -41,22 +44,7 @@ O projeto segue um fluxo simples: consultas SQL → exportação dos resultados 
 
 **Ambiente**
 - Google Colab — execução e visualização dos notebooks
-
-
-## Gráficos Gerados
-
-Os gráficos foram criados com Matplotlib e Seaborn a partir dos resultados das consultas SQL.
-
-### Lista de Gráficos 
-1. **15 clientes que mais gastaram**  
-
-2. **15 produtos mais vendidos**  
-
-3. **20 cidades que mais compraram**  
-
-4. **Quantidade de produtos vendidos ao longo 2024**  
-
-5. **Porcentagem de vendas por categoria (até o momento)**  
+- Power BI - elaboração do relatório de overview para tomada de decisões
 
 
 ## Como Executar o Projeto 
@@ -65,7 +53,10 @@ Os gráficos foram criados com Matplotlib e Seaborn a partir dos resultados das 
 
 2. Crie o banco de dados executando o script SQL da pasta `/sql`.  
 
-3. Abra o notebook da pasta `/notebooks` no Google Colab para visualizar os gráficos.  
+3.
+  3.1 Abra o notebook da pasta `/notebooks` no Google Colab para visualizar os gráficos ligeiramente elaborados
+  ou
+  3.2 Abra o arquivo overview_loja_online.pbix ou o arquivo em PDF.
 
 
 ## Sobre o Projeto
@@ -77,10 +68,8 @@ As consultas SQL foram usadas para identificar padrões, como:
 - Clientes que mais gastaram;
 - Produtos e categorias mais vendidos;
 - Cidades com maior volume de compras;
-- Evolução das vendas ao longo do tempo.
-
-Os gráficos foram criados com Pandas, Matplotlib e Seaborn no Google Colab, destacando diferentes tipos de visualização (barras, linhas e pizza).  
-
+- Evolução das vendas ao longo do tempo;
+- Ticket Médio por unidade federativa.
 
 ## Contato 
 
